@@ -19,8 +19,8 @@ public:
   radix::Screen &pauseScreen;
   radix::Screen &gameOverScreen;
   GameWorld(InputSource &input);
-  void addScreen(Screen& screen);
-  void removeScreen(Screen& screen);
+  void addScreen(Screen &screen);
+  void removeScreen(Screen &screen);
   std::list<Screen*>* getScreens();
 private:
   std::list<Screen*> screens;
